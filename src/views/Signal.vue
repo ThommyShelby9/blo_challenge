@@ -44,7 +44,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import clientHttp from "@/lib/clientHttp.ts";
+import clientHttp from "@/lib/clientHttp";
 import { toast } from "vue3-toastify";
 
 const latitude = ref();
