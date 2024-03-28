@@ -78,13 +78,13 @@
             </div>
             <a href="/signal">
               <button class="btn">
-              <p class="">SIGNALER UN PROBLEME</p>
-              <img
-                src="/src/assets/images/[removal.ai]_0af98692-b0d3-4fc1-b795-d17ba983ffb4-group-5.png"
-                alt=""
-                width="60px"
-              />
-            </button>
+                <p class="">SIGNALER UN PROBLEME</p>
+                <img
+                  src="/src/assets/images/[removal.ai]_0af98692-b0d3-4fc1-b795-d17ba983ffb4-group-5.png"
+                  alt=""
+                  width="60px"
+                />
+              </button>
             </a>
           </div>
         </div>
@@ -145,7 +145,7 @@ import BackgroundImage from "@/assets/images/unnamed.jpg";
 
 .navbar_left ul {
   font-size: 36px;
-  margin-top: 30px;
+  margin-top: -70px;
 }
 
 .content_middle_top {
@@ -177,7 +177,7 @@ import BackgroundImage from "@/assets/images/unnamed.jpg";
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: -80px;
+  margin-top:10px;
 }
 
 .content_middle_middle_button {
@@ -198,4 +198,11 @@ import BackgroundImage from "@/assets/images/unnamed.jpg";
   font-size: 36px;
 }
 
+.navbar_left{
+  margin-top: 400px;
+}
+
+.navbar_right{
+  margin-top: 270px;
+}
 </style>
